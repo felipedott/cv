@@ -2,7 +2,12 @@
 body{
   margin: 0px;
   text-align: center;
- 
+}
+
+hr{
+  margin: 25px 575px;
+  border: 4px dotted;
+  border-bottom: none;
 }
 
 h1 {
@@ -19,7 +24,6 @@ h2 {
   margin-top: 0%;
   color:  #bbbfca;
   font-weight: normal;
-
 }
 
 h3 {
@@ -40,6 +44,8 @@ a{
 .profilepicture{
   height: 250px;
   width: 250px;
+  margin-top: 75px;
+  margin-bottom: 25px;
 }
 
 .web-dev{
@@ -55,47 +61,91 @@ a{
 
 .middle-container {
   background-color: #f4f4f2;
+  text-align: center;
+  padding-left: 175px;
+  padding-right: 175px;
+  padding-bottom: 25px;
 }
 
 .bottom-container {
   background-color:#e8e8e8;
-  margin-top: 5px;
-  margin-bottom: 0;
-}
+  padding: 25px; 
+  }
+
 
 .top-cloud {
   position: absolute;
-right: 300px;
-top:50px;
+  right: 300px;
+  top:50px;
 }
 
 
 .bottom-cloud{
   position: absolute;
-left: 300px;
-bottom: 300px;
+  left: 300px;
+  bottom: 300px;
 }
 
 .iconstext{
   font-size: xx-small;
+  line-height: 1px;
 }
 
 .skill-row {
   width: 50%;
-  margin: 100px auto;
+  margin: 70px auto;
   text-align: left;
-  line-height: 2;
+  line-height: 1.5;
+  font-weight: 450;
 }
 
 .laptop {
-  width: 25%;
+  width: 30%;
   float: left;
   margin-right: 30px;
 }
 
 .microphone {
-  width: 25%;
+  width: 28%;
   float: right;
   margin-left: 30px;
+}
 
+.footer-link {
+  padding: 15px;
+}
+
+.profile {
+  margin: auto 250px;
+  font: bold;
+}
+
+.contact_button {
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  border-radius: 100px;
+  color: #BBBFCA;
+  font-family: Open Sans;
+  font-size: 11px;
+  font-weight: 600;
+  padding: 10px;
+  background-color: #495464;
+  -webkit-box-shadow: inset 1px 1px 20px 0 #000000;
+  -moz-box-shadow: inset 1px 1px 20px 0 #000000;
+  box-shadow: inset 1px 1px 20px 0 #000000;
+  text-shadow: 1px 1px 23px #000000;
+  border: solid #495464 1px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.contact_button:hover {
+  background: #F4F4F2;
+  border: solid #F4F4F2 1px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  text-decoration: none;
 }
